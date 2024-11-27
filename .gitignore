@@ -7,6 +7,10 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+image-1.png
+image.png
+output.png
+
 .Python
 build/
 develop-eggs/
