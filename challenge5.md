@@ -1,4 +1,4 @@
-# Challenge 5: Real-time Log Monitoring (Beginner)
+# Challenge 5: Real-time Log Monitoring 
 
 ## Objective  
 Create an AWS Lambda function to monitor logs stored in an S3 bucket, detect specific error patterns, and send alerts via SNS.
