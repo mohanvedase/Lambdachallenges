@@ -1,4 +1,4 @@
-```markdown
+
 # Challenge 2: Scheduled EC2 Backup to S3
 
 ## **Objective**  
