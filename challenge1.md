@@ -1,4 +1,3 @@
-```markdown
 # Challenge 1: Automated Image Processing
 
 ## **Objective**  
@@ -143,40 +142,3 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': f'Images resized and uploaded to {bucket_name}'
     }
-```
-
----
-
-### **Step 6: Set Up S3 Trigger for Lambda**
-
-1. **Go to the S3 Bucket:**
-   - Navigate to **Properties** > **Event Notifications**.
-
-2. **Create an Event Notification:**
-   - Name the event (e.g., `ImageUploadTrigger`).
-   - Event Type: `PUT` (for new uploads).
-   - Destination: Choose the Lambda function created earlier.
-
----
-
-### **Step 7: Test the Lambda Function**
-
-1. **Upload a Test Image:**
-   - Go to your S3 bucket and upload an image to the root directory.
-
-2. **Verify Resized Images:**
-   - Check the `thumbnail/`, `medium/`, and `large/` folders in the S3 bucket for resized images.
-
-3. **Check for SNS Notification:**
-   - Verify that you received an email notification.
-
----
-
-## **Additional Considerations**
-
-- **Error Handling:** Add exception handling to manage errors during image processing or file uploads.
-- **Logging:** Use CloudWatch logs for debugging and monitoring.
-- **Permissions:** Ensure the IAM role has sufficient permissions for S3 and SNS.
-
----
-
