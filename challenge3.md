@@ -1,4 +1,4 @@
-```markdown
+
 # Challenge 3: Dynamic Resource Cleanup
 
 ## **Objective**  
