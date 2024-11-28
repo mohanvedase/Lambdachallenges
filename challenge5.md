@@ -1,7 +1,3 @@
-Here’s a properly formatted **Markdown (MD)** documentation for **Challenge 5: Real-time Log Monitoring**:
-
----
-
 # Challenge 5: Real-time Log Monitoring (Beginner)
 
 ## Objective  
