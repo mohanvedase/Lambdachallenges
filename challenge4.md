@@ -1,4 +1,4 @@
-```markdown
+
 # Challenge 4: Data Pipeline Trigger
 
 ## **Objective**  
