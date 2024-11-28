@@ -1,4 +1,3 @@
-```markdown
 # Challenge 6: Serverless File Validator  
 
 ## **Objective**  
